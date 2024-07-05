@@ -20,7 +20,7 @@ app.get("/",function(req,res){
 })
 ```
 
-That's it.Now the only thing left is to run the app.In order to do that we are going to use `runApp` function we just imported from the `fast-express-backend`
+That's it.Now the only thing left is to run the app.In order to do that we are going to use `runApp` function we just imported from the `fast-express-backend`.
 To check out the docs head over to [runApp docs](../lib/runApp.md)
 ```javascript
 runApp(app,8000)
