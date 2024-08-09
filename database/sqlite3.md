@@ -134,4 +134,4 @@ async function runner(){
 runner().then(e => console.log(e)).catch(e => console.error(e))
 ```
 
-Run the file. Then browse the database using any viewer.You should see the "users" table right there.That's enough for creating tables in sqlite3.
+Run the file. Then browse the database using any viewer.You should see the `users` table right there.That's enough for creating tables in sqlite3.
